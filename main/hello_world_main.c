@@ -153,7 +153,7 @@ void lowpass_filter_and_fft(double **acc_data, int n, double *frequencies, doubl
 
 // Task na čítanie dát z MPU6050
 void read_sensor_data_task(void *pvParameter) {
-    int data_index = 0;
+    int data_index = 0
 
     while (data_index < pocet_dat) {
         // Získanie mutexu pred prístupom k zdieľanej štruktúre
